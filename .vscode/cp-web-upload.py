@@ -1,9 +1,3 @@
-# cURL example: curl -v -u :webpassword -T ${file} -L --location-trusted ${input:url}/${relativeFile}
-# Get timestamp from source file and set on new file
-# use argparse
-# get password from /.env
-# set/get URL from /.env
-
 import sys
 import requests
 
