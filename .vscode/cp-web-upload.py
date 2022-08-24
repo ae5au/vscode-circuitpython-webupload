@@ -1,9 +1,12 @@
 import sys
+import os
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 
 baseURL = "http://cpy-daa7a1.local/fs/"
-password = "webpassword"
 
+password = os.getenv("CIRCUITPY_WEB_API_PASSWORD")
 workspaceFolder = sys.argv[1]
 relativeFile = sys.argv[2]
 
