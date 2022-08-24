@@ -7,6 +7,7 @@ CircuitPython 8.x adds [web workflow](https://docs.circuitpython.org/en/latest/d
 
 ## Setup
 * Python 3 installed and in your path.
+* CircuitPython 8.x on your board.
 * Copy .vscode directory from this project to the root of your CircuitPython project. It does not have to be copied to your CircuitPython board, just the machine running VS Code.
 * Edit .vscode/cp-web-upload.py - set baseURL and password.
 * From the file you want to upload, execute the "Run Task..." command.
