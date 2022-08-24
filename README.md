@@ -13,7 +13,7 @@ CircuitPython 8.x adds [web workflow](https://docs.circuitpython.org/en/latest/d
   * [This is for ESP32 (original) but should be close enough for any of the ESP32-S2 or S3 boards, also](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow).
 * Copy .vscode directory from this project to the root of your CircuitPython project. It does not have to be copied to your CircuitPython board, just the machine running VS Code.
 * Edit .vscode/cp-web-upload.py and set _baseURL_.
-* Password is taken from .env
+* Web API password is taken from .env
 * From the file you want to upload, execute the "Run Task..." command.
   * Menu: _Terminal, Run Task..._
   * Command pallet: _Tasks: Run Task_
