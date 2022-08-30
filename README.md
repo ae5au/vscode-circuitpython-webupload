@@ -3,7 +3,7 @@ Task definition and Python script to upload from VS Code to CircuitPython board 
 
 CircuitPython 8.x adds [web workflow](https://docs.circuitpython.org/en/latest/docs/workflows.html#web) allowing code to be edited/uploaded via the local network. There is built-in browser support and also a Web REST API. This project utilizes the latter to upload a file directly from VS Code.
 
-***NOTE: This is very rough and you will find some bugs. PRs appreciated!***
+***NOTE: ~~This is very rough and you will find some bugs.~~ No major bugs so far, but PRs for improvement appreciated!***
 
 ## Setup
 * Python 3 installed and in your path.
