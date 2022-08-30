@@ -9,7 +9,7 @@ CircuitPython 8.x adds [web workflow](https://docs.circuitpython.org/en/latest/d
 * Python 3 installed and in your path.
   * [requests](https://pypi.org/project/requests/) and [python-dotenv](https://pypi.org/project/python-dotenv/)
 * CircuitPython 8.x on your board.
-* Board connected to same Wi-Fi as machine running VS Code and have web workflow configured.
+* Board connected to same Wi-Fi with web workflow configured and reachable from machine running VS Code.
   * [This is for ESP32 (original) but should be close enough for any of the ESP32-S2 or S3 boards, also](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow).
 * Copy .vscode directory from this project to the root of your CircuitPython project. It does not have to be copied to your CircuitPython board, just the machine running VS Code.
 * Edit .vscode/cp-web-upload.py and set _baseURL_.
